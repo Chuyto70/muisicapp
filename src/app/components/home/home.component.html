@@ -1,0 +1,8 @@
+<app-loading *ngIf="listo"></app-loading>
+<div *ngIf="errorServicio===true" class="alert alert-danger">
+    <h3>Error</h3>
+    <p> </p>
+</div>
+
+
+<app-tarjeta [items]=nuevasCanciones></app-tarjeta>
